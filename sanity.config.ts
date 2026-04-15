@@ -8,7 +8,7 @@ import { serviceSchema } from './sanity/schemaTypes/service'
 export default defineConfig({
   name: 'default',
   title: 'Consulting CMS',
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'replace-with-your-id',
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'afotztt6',
   dataset: 'production',
   plugins: [structureTool(), visionTool()],
   schema: { types: [courseSchema, blogSchema, serviceSchema] },
